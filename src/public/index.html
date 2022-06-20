@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="content">
+        <canvas id="canvas"></canvas>
+        <div class="colors">
+            <button class="colorbtn" id="color1" onclick="colorHandler('red')"></button>
+            <button class="colorbtn" id="color2" onclick="colorHandler('yellowgreen')"></button>
+            <button class="colorbtn" id="color3" onclick="colorHandler('blue')"></button>
+            <button class="colorbtn" id="color4" onclick="colorHandler('black')"></button>
+            <button class="colorbtn" id="color5" onclick="colorHandler('yellow')"></button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
